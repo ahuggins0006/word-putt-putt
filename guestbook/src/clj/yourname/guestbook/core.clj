@@ -11,7 +11,10 @@
 
     ;; Routes
     [yourname.guestbook.web.routes.api]
-    )
+    
+    [yourname.guestbook.web.routes.pages] 
+    [kit.edge.db.sql.conman] 
+    [kit.edge.db.sql.migratus])
   (:gen-class))
 
 ;; log uncaught exceptions in threads
